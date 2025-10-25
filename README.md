@@ -1,5 +1,6 @@
-## This exetention allows you to reattempt your NPTEL assignments
+## NPTEL Reattempt
 
+This extention allows you to reattempt your NPTEL assignments.
 Go to your NPTEL assignment page and enable the reattempt mode from the extension icon. This will shuffle the choices and allow you to answer the questions again.
 
 ## Installation
@@ -12,5 +13,10 @@ Go to your NPTEL assignment page and enable the reattempt mode from the extensio
 4. Click on "Load unpacked" and select the directory where you cloned/downloaded this repository.
 5. The extension should now appear in your list of extensions.
 
+## Demo
+
+
+
+https://github.com/user-attachments/assets/8835a03c-9b65-4e23-bb94-65ab6e774f9d
 
 
