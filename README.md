@@ -1,1 +1,1 @@
-## This exention allows you to reattempt your NPTEL assignments
+## This exetention allows you to reattempt your NPTEL assignments
