@@ -1,4 +1,20 @@
+function shuffleChoices() {
+  document.querySelectorAll('.qt-choices').forEach(choiceDiv => {
+    const choices = Array.from(choiceDiv.children);
+
+    // Fisher-Yates shuffle
+    for (let i = choices.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [choices[i], choices[j]] = [choices[j], choices[i]];
+    }
+
+    choiceDiv.innerHTML = '';
+    choices.forEach(c => choiceDiv.appendChild(c));
+  });
+}
+
 function enableReattemptMode() {
+  shuffleChoices();
   document.querySelectorAll('.qt-feedback').forEach(div => (div.style.display = 'none'));
 document.querySelectorAll('.qt-choices input[type="radio"]').forEach(input => {
   input.disabled = false;
