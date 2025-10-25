@@ -5,7 +5,7 @@
   "description": "Practice old NPTEL MCQs by reattempting them locally.",
   "content_scripts": [
     {
-      "matches": ["*://*/*"],
+      "matches": ["https://onlinecourses.nptel.ac.in/*"],
       "js": ["content.js"]
     }
   ]
